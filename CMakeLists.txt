@@ -16,7 +16,7 @@ endif()
 include_directories(${RAYLIB_PATH}/include)
 link_directories(${RAYLIB_PATH}/lib)
 
-add_executable(raylib_app main.cpp grid.cpp colors.cpp position.cpp block.cpp blocks.cpp)
+add_executable(raylib_app main.cpp game.cpp grid.cpp colors.cpp position.cpp block.cpp blocks.cpp)
 
 target_link_libraries(raylib_app
     raylib
